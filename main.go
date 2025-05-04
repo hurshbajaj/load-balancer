@@ -23,9 +23,8 @@ type Server struct {
 }
 
 type Config struct {
-	Port                string   `json:"port"`
-	HealthCheckInterval string   `json:"healthCheckInterval"`
-	Servers             []string `json:"servers"`
+	Port    string   `json:"port"`
+	Servers []string `json:"servers"`
 }
 
 var config Config
